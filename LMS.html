@@ -1,3 +1,96 @@
-<html>
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS</title>
+    <link rel="stylesheet" href="LMS.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+             <h2 class="logo">
+                 <i class="fa-solid fa-book"></i> LMS
+            </h2>
+            <ul>
+                <li class="active"><a href="#dashboard"><i class="fa-solid fa-gauge"></i> Dashboard</a></li>
+                <li><a href="#courses"> <i class="fa-solid fa-book-open"></i> My Cources </a></li>
+                <li><a href="#assignment"><i class="fa-solid fa-file-lines"></i> Assignments </a></li>
+                <li><a href="#Study-Material"><i class="fa-solid fa-folder-open"></i> Study Material</a></li>
+                <li><a href="#profile"><i class="fa-solid fa-user"></i> Profile</a></li>
+                <li><a href="#"><i class="fa-solid fa-right-from-bracket"></i> Logout</a></li>
+            </ul>
+
+            <ul class="settings">
+                <li><i class="fa-solid fa-gear"></i> Settings</li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="topbar">
+                <h1> <i class="fa-solid fa-gauge"></i>Dashboard</h1>
+                <div class="user">Welcome, User 👋  </div>
+            </div>
+            
+            <div id="dashboard" class="welcome">
+                <h3> Welcome Chitransh 👋 </h3>
+                <p>Your learning progress overview.</p>
+            </div>
+
+            <div id="assignment"class="cards">
+                <div class="card">
+                    <h3>5</h3>
+                    <p> Courses Enrolled</p>
+                </div>
+
+                <div class="card">
+                    <h3>2</h3>
+                    <p>Assignment Pending</p>
+                </div>
+
+                <div class="card">
+                    <h3>11</h3>
+                    <p>Study Material</p>
+                </div>
+            </div>
+
+            <h2 id="courses" class="section-title">Your Courses</h2>
+
+            <div class="courses">
+                <div class="course-card"> HTML Basics </div>
+                <div class="course-card"> CSS Mastery </div>
+                <div class="course-card"> JS Beginners </div>
+                <div class="course-card"> My SQL </div>
+                <div class="course-card"> PHP </div>
+            </div>
+
+            <h2 id="Study-Material" class="section-title"> Books Summary </h2>
+
+            <div class="books">
+                <div class="book"> 
+                    <h3>20</h3>
+                    <p> Ordered Books</p>
+                </div>
+
+                <div class="book"> 
+                    <h3>30</h3>
+                    <p> Issued Books</p>
+                </div>
+
+                <div class="book"> 
+                    <h3>60</h3>
+                    <p> Purchased Books</p>
+                </div>
+
+                <div class="book"> 
+                    <h3>15</h3>
+                    <p> Rented Books</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
 </html>
