@@ -22,7 +22,7 @@ body{
     background-color: #002353;
     padding:20px;
     color: white;
-    position: fixed;
+    /* position: fixed; */
     overflow: hidden;
     display: flex;
     flex-direction: column;
